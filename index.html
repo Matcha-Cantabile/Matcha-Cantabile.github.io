@@ -11,6 +11,33 @@ select,input[type=text]{line-height:30px;position:relative;z-index:1000;padding:
 select,input[type=button],button{height:30px;position:relative;z-index:1000;}
 #form_bulls_cows_solver{margin:auto;}
 #form_bulls_cows_solver table{margin:auto;}
+
+ribbon{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	background-color: #aa0000;
+	box-shadow: 0 0 5px 2px #888888;
+	overflow: hidden;
+	user-select:none;
+	user-drag:none;
+}
+ribbon a{
+	font-size: 12px;
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	margin: 2px 0;
+	width: 260px;
+	line-height: 30px;
+}
 @media only screen and (min-width: 600px){
 	ribbon {
 		transform-origin:50px 50%;
